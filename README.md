@@ -24,7 +24,7 @@ You need an HTTPS url for most webhooks for bots to work. For purely development
 
 ngrok http 8000
 
-At this point, you will have to add the URLs to ALLOWED_HOSTS in chatbot_tutorial/settings.py.
+At this point, you will have to add the URLs to ALLOWED_HOSTS in settings.py.
 
 Step 5 : Talk to the BotFather and get and set your bot token
 Start telegram, and search for the Botfather. Talk to the Botfather on Telegram and give the command /newbot to create a bot and follow the instructions to get a token.
